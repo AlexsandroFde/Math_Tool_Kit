@@ -14,5 +14,6 @@ char *converter(char *res, double num, int base);
 void converterBOH();
 
 int jordan(double **matriz, int n, double *x, int *aux);
+void sistemaLinear();
 
 #endif
