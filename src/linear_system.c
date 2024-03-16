@@ -17,7 +17,7 @@ void sistemaLinear(){
   fscanf(arq, "%d", &n);
   matriz = (double**)malloc(sizeof(double*) * n);
   if (matriz == NULL){ // Falta de memória
-    printf("Erro na alocação de memória\n");
+    printf("Erro na alocacao de memoria\n");
     fclose(arq);
     return;
   }
@@ -28,7 +28,7 @@ void sistemaLinear(){
         free(matriz[j]);
       }
       free(matriz);
-      printf("Erro na alocação de memória\n");
+      printf("Erro na alocacao de memoria\n");
       fclose(arq);
       return;
     }
@@ -53,16 +53,16 @@ void sistemaLinear(){
         printf("\n");
       }
     if (compativel){ // Caso o sistema linear seja compativel
-      printf("O sistema é compativel\n");
-      printf("Solução do sistema:\n");
+      printf("O sistema eh compativel\n");
+      printf("Solucao do sistema:\n");
       for (i = 0; i < n; i++){
         printf("x%d = %.3lf\n", i + 1, xi[i]); // Imprime a solução
       }
     } else{
-      printf("O sistema é incompatível\n");
+      printf("O sistema eh incompativel\n");
     }
   }else{ // Falta de memória
-    printf("Erro na alocação de memória\n");
+    printf("Erro na alocacao de memoria\n");
     if (xi != NULL) free(xi);
     if (xAux != NULL) free(xAux);
   }

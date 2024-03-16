@@ -4,11 +4,11 @@ int main(void){
   char opc;
   do{
     printf("\n<-=~={ MENU }=~=->\n");
-    printf("'C' - Conversão\n");
+    printf("'C' - Conversao\n");
     printf("'S' - Sistema Linear\n");
-    printf("'E' - Equação Algébrica\n");
+    printf("'E' - Equacao Algebrica\n");
     printf("'F' - Finalizar\n");
-    printf("Escolha uma opção: ");
+    printf("Escolha uma opcao: ");
     opc = fgetc(stdin);
     limparBuffer();
     printf("\n");
@@ -27,7 +27,7 @@ int main(void){
         printf("Programa finalizado\n");
         break;
       default:
-        printf("Opção inválida. Tente novamente\n");
+        printf("Opcao invalida. Tente novamente\n");
     }
   }while (opc != 'F');
   return 0;
