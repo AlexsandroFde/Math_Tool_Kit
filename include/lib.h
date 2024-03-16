@@ -3,6 +3,6 @@
 #include <stdio.h>
 
 void limparBuffer();
-
+void systemClear();
 
 #endif
