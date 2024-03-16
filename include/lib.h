@@ -17,6 +17,6 @@ int jordan(double **matriz, int n, double *x, int *aux);
 void sistemaLinear();
 
 double lagrange(double *a, double *aAux, int n, int tipo);
-
+int bolzano(double *cfs, int n, double a, double b);
 
 #endif
