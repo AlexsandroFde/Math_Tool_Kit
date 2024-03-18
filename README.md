@@ -32,10 +32,6 @@ Este é um projeto em linguagem C que oferece funcionalidades de conversão de n
 3. **Escolha da Funcionalidade:**
     Após iniciar o programa, siga as instruções do menu para escolher a funcionalidade desejada, seja conversão, resolução de sistemas lineares ou resolução de equações algébricas.
 
-## Arquivos do Projeto
-
-- `main.c`: Contém todo o código-fonte do projeto, incluindo as funcionalidades de conversão, resolução de sistemas lineares e resolução de equações algébricas.
-  
 ## Contribuição
 
 Se você quiser contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
